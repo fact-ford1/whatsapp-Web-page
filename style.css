@@ -1,10 +1,13 @@
 /* #05ff22 */
+@keyframes font{
 
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #e7eacf;
+    font-family: sans-serif;
 }
 
 .main-body{
@@ -44,7 +47,7 @@ list-style:none;
 }
 .button{
     padding: 2px;
-    gap: 15px;
+    /* gap: 15px; */
     display: flex;
     background: green;
     border: 2px solid black;
@@ -55,7 +58,7 @@ list-style:none;
     /* margin-left: 100px; */
     align-self:center;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 50px;
     align-content: center;
 }
 .button svg{
@@ -85,13 +88,14 @@ a p{
     font-size: 25px;
     align-self: center;
     align-items: center;
+    color: rgb(0, 0, 0);
 }
 .main-container{
 height: 600px;
-width: 1000px;
+width: auto;
 border: 2px solid black;
-margin: 30px;
-border-radius: 20px;
+margin: 40px;
+border-radius: 40px;
 align-self: center;
 background-color: white;
 display: flex;
@@ -100,4 +104,42 @@ padding: 10px;
 }
 .container{
     border: 2px solid black;
+    padding: 50px;
+}
+.container h2{
+    font-weight:lighter;
+    margin-bottom: 10px;
+}
+.step-to-connect{
+    margin-top: 40px;
+}
+.step-to-connect li{
+    margin-top:20px;
+    list-style: decimal;
+}
+.step-to-connect li:nth-child(1){
+    margin-top: 47px;
+}
+.step-to-connect li:nth-child(2){
+    font-size: 16px;
+}
+
+
+svg{
+    padding-top: 5px;
+    
+}
+
+.help-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    color: black;
+    gap:20px;
+}
+.help-list li{
+    color: black;
+    font-size: 18px;
+    text-decoration: underline;
+
 }
