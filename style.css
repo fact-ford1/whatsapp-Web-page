@@ -11,7 +11,7 @@
 }
 
 .main-body{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     position: relative;
@@ -23,6 +23,7 @@
     grid-area: 10px;
 }
 .left-container a{
+    margin: 10px;
     color: #05ff22;
 }
 /* .top-container{
@@ -62,8 +63,10 @@ list-style:none;
     align-content: center;
 }
 .button svg{
-    
-    background: green;
+    margin-top: ;
+    /* border: 1px solid black; */
+    color: green;
+    background-color: green;
 }
 li p{
     margin-bottom: 0px;
@@ -93,29 +96,40 @@ a p{
 .main-container{
 height: 600px;
 width: auto;
-border: 2px solid black;
+/* border: 2px solid black; */
 margin: 40px;
 border-radius: 40px;
 align-self: center;
 background-color: white;
 display: flex;
-gap: 20px;
+gap: 40px;
 padding: 10px;
 }
 .container{
-    border: 2px solid black;
-    padding: 50px;
+    
+    /* border: 2px solid black; */
+    border-radius: 34px;
+    padding: 40px;
+}
+.container1{
+    background-color: white;
 }
 .container h2{
     font-weight:lighter;
     margin-bottom: 10px;
+    background-color: white;
+}
+.container p{
+    background-color: white;
 }
 .step-to-connect{
+    background-color: white;
     margin-top: 40px;
 }
 .step-to-connect li{
     margin-top:20px;
     list-style: decimal;
+    background-color: white;
 }
 .step-to-connect li:nth-child(1){
     margin-top: 47px;
@@ -123,11 +137,13 @@ padding: 10px;
 .step-to-connect li:nth-child(2){
     font-size: 16px;
 }
-
+.step-to-connect svg{
+    background-color: white;
+}
 
 svg{
     padding-top: 5px;
-    
+    /* background-color: white; */
 }
 
 .help-list{
@@ -136,10 +152,29 @@ svg{
     margin-top: 60px;
     color: black;
     gap:20px;
+    background-color: white;
 }
 .help-list li{
+    background-color: white;
     color: black;
     font-size: 18px;
     text-decoration: underline;
 
+}
+.help-list a{
+    background-color: white;
+}
+.qr-code{
+    background-color: white;
+    padding: 10px;
+}
+.qr-code img{
+    height: auto;
+    width: 250px;
+}
+.qr-code svg{
+    background-color: #ffffff;
+}
+.qr-code p {
+    font-size: 14px;
 }
