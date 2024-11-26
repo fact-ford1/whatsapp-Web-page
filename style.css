@@ -50,7 +50,7 @@ list-style:none;
     padding: 2px;
     /* gap: 15px; */
     display: flex;
-    background: green;
+    background: #008000;
     border: 2px solid black;
     height: 50px;
     width: 180px;
@@ -63,19 +63,21 @@ list-style:none;
     align-content: center;
 }
 .button svg{
-    margin-top: ;
+    display: block;
+    vertical-align: middle;
+    /* margin-bottom:1px ; */
     /* border: 1px solid black; */
-    color: green;
-    background-color: green;
+    color: #000000;
+    background-color: #008000;
 }
 li p{
     margin-bottom: 0px;
-    background: green;
+    background: #008000;
 }
 ul{
     display: flex;
     gap: 50px;
-    /* background-color: green; */
+    /* background-color: #008000; */
     justify-content: space-between;
 }
 ul li{
@@ -100,7 +102,7 @@ width: auto;
 margin: 40px;
 border-radius: 40px;
 align-self: center;
-background-color: white;
+background-color: #ffffff;
 display: flex;
 gap: 40px;
 padding: 10px;
@@ -112,24 +114,24 @@ padding: 10px;
     padding: 40px;
 }
 .container1{
-    background-color: white;
+    background-color: #ffffff;
 }
 .container h2{
     font-weight:lighter;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: #ffffff;
 }
 .container p{
-    background-color: white;
+    background-color: #ffffff;
 }
 .step-to-connect{
-    background-color: white;
+    background-color: #ffffff;
     margin-top: 40px;
 }
 .step-to-connect li{
     margin-top:20px;
     list-style: decimal;
-    background-color: white;
+    background-color: #ffffff;
 }
 .step-to-connect li:nth-child(1){
     margin-top: 47px;
@@ -138,12 +140,13 @@ padding: 10px;
     font-size: 16px;
 }
 .step-to-connect svg{
-    background-color: white;
+    background-color: #ffffff;
 }
 
 svg{
-    padding-top: 5px;
-    /* background-color: white; */
+    vertical-align: middle;
+    /* padding-top: 5px; */
+    /* background-color: #ffffff; */
 }
 
 .help-list{
@@ -152,20 +155,39 @@ svg{
     margin-top: 60px;
     color: black;
     gap:20px;
-    background-color: white;
+    background-color: #ffffff;
 }
 .help-list li{
-    background-color: white;
-    color: black;
-    font-size: 18px;
-    text-decoration: underline;
+    background-color: #ffffff;
+    /* color: black; */
+    /* font-size: 18px; */
+    /* text-decoration: underline; */
 
 }
+.custom-link{
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+.custom-link::after{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 87%;
+    height: 2px;
+    background-color: #008000;
+}
 .help-list a{
-    background-color: white;
+    background-color: #ffffff;
+}
+.help-list svg{
+    background-color: #ffffff;
 }
 .qr-code{
-    background-color: white;
+    background-color: #ffffff;
     padding: 10px;
 }
 .qr-code img{
