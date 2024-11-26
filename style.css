@@ -104,7 +104,7 @@ border-radius: 40px;
 align-self: center;
 background-color: #ffffff;
 display: flex;
-gap: 40px;
+gap: 30px;
 padding: 10px;
 }
 .container{
@@ -189,6 +189,7 @@ svg{
 .qr-code{
     background-color: #ffffff;
     padding: 10px;
+    padding-top: 60px;
 }
 .qr-code img{
     height: auto;
